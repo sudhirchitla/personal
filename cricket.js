@@ -77,8 +77,8 @@ async function showMatchDetails(matchUri){
     let matchInfo ='';
 
 
-    display += matchData.matchDetail.teamBatting.name + ' ' 
-                + "<h6 class='bg-danger'>" + matchData.matchDetail.teamBatting.score + '</h6>';
+    display += "<h6 class='bg-danger'>" + matchData.matchDetail.teamBatting.name + ' ' 
+                + matchData.matchDetail.teamBatting.score + '</h6>';
                 
     let batter1 = matchData.matchDetail.currentBatters[0].name 
                 + ' ' + matchData.matchDetail.currentBatters[0].runs

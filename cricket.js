@@ -87,7 +87,7 @@ async function showMatchDetails(matchUri){
                 + ' ' + matchData.matchDetail.currentBatters[1].runs
                 + ' (' + matchData.matchDetail.currentBatters[1].ballsFaced + ')';
     let bowler = matchData.matchDetail.bowler.name 
-                + ' ' + matchData.matchDetail.bowler.bowlerOver 
+                + '<br>' + matchData.matchDetail.bowler.bowlerOver 
                 + ' ' + matchData.matchDetail.bowler.runsAgainst
                 + ' ' + matchData.matchDetail.bowler.wickets
                 + ' ' + matchData.matchDetail.bowler.economy;

@@ -98,7 +98,7 @@ async function showMatchDetails(matchUri){
     let showContents = document.getElementById('info');   // Content holder 
 
     let col = document.createElement("div");    
-    col.setAttribute("class", "col-12 text-center bg-info p-1");   
+    col.setAttribute("class", "col-12 text-center bg-info");   
 
     let myContent = document.createElement("p");
     myContent.innerHTML = matchInfo;
